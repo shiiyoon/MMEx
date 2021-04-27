@@ -1,0 +1,34 @@
+:root{
+    --DM: #a9acb1;
+    --DM-soft: #3a3b3c;
+    --light: white;
+}
+body.night-mode{
+    background: #19191a;
+}
+.night-mode tr{
+   background-color: var(--DM-soft);
+}
+
+.night-mode td{
+    background-color: var(--DM-soft);
+}
+.night-mode input, .night-mode select{
+    background-color: var(--DM-soft);
+}
+.night-mode line{
+    background-color: var(--DM-soft);
+}
+.mode-btn{
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 65px;
+    right: 36px;
+    background-color: var(--DM-soft);
+}
+.night-mode .mode-btn {
+    background: var(--light) !important;
+}
